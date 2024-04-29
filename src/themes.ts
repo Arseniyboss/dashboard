@@ -8,9 +8,9 @@ export const themes: Themes = {
     boxShadow: '0 0 0.25rem darkgrey',
   },
   dark: {
-    background: '#101522',
+    background: '#23252d',
     primaryColor: '#fff',
     secondaryColor: '#ccc',
-    boxShadow: '0 0 0.5rem black',
+    boxShadow: '0 0 0.25rem black',
   },
 }
