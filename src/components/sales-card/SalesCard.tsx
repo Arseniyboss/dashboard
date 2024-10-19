@@ -1,5 +1,5 @@
 import { useTheme } from '@/hooks/useTheme'
-import { SalesHeader, SaleList } from './styles'
+import { SalesHeader, SaleWrapper } from './styles'
 import Sale from '@/components/sale/Sale'
 import sales from '@/data/sales'
 
@@ -11,11 +11,11 @@ const SalesCard = () => {
         <h2>Recent Sales</h2>
         <p>You made 265 sales this month.</p>
       </SalesHeader>
-      <SaleList>
+      <SaleWrapper>
         {sales.map((sale, index) => (
           <Sale key={index} {...sale} />
         ))}
-      </SaleList>
+      </SaleWrapper>
     </div>
   )
 }

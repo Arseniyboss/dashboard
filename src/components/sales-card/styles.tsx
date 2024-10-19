@@ -12,7 +12,7 @@ export const SalesHeader = styled.header<ThemeProps>`
   }
 `
 
-export const SaleList = styled.ul`
+export const SaleWrapper = styled.ul`
   display: flex;
   flex-direction: column;
   gap: var(--spacing);
