@@ -1,6 +1,8 @@
+import { ReactElement } from 'react'
+
 export type Card = {
   label: string
-  icon: JSX.Element
+  icon: ReactElement
   amount: string
   description: string
 }
